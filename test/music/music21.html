@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classical Music List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // 유튜브 영상 링크 배열
+        const videoLinks = [
+            "https://www.youtube.com/watch?v=nkE-Zf3rlr4",
+            "https://www.youtube.com/watch?v=97_VJve7UVc",
+            "https://www.youtube.com/watch?v=BxMmBvdYdXY",
+            "https://www.youtube.com/watch?v=5rkXYm-JEQQ",
+            "https://www.youtube.com/watch?v=jiKb-JzJFQM",
+            "https://www.youtube.com/watch?v=Y2-1H9yhU2A",
+            "https://www.youtube.com/watch?v=g7wefv98lvo",
+            "https://www.youtube.com/watch?v=SbqJIwGlJ_s",
+            "https://www.youtube.com/watch?v=JTEFKFiXSx4",
+            "https://www.youtube.com/watch?v=71hNl_skTZQ"
+        ];
+
+        // 랜덤 재생 함수
+        function playRandomVideo() {
+            const randomIndex = Math.floor(Math.random() * videoLinks.length);
+            window.open(videoLinks[randomIndex], "_blank");
+        }
+    </script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <div class="max-w-4xl mx-auto py-8">
+        <h1 class="text-3xl font-bold text-center mb-8">🎵 음악 수행 🎵</h1>
+
+        <!-- 1. 드뷔시 '목신의 오후 전주곡' -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold">1. 드뷔시 <span class="font-bold">'목신의 오후 전주곡'</span></h2>
+            <a href="https://www.youtube.com/watch?v=nkE-Zf3rlr4" target="_blank" class="text-blue-500 underline">유튜브에서 보기</a>
+        </div>
+
+        <!-- 2. 드뷔시 '달빛' -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold">2. 드뷔시 <span class="font-bold">'달빛'</span></h2>
+            <a href="https://www.youtube.com/watch?v=97_VJve7UVc" target="_blank" class="text-blue-500 underline">유튜브에서 보기</a>
+        </div>
+
+        <!-- 3. 라벨 '볼레로' -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold">3. 라벨 <span class="font-bold">'볼레로'</span></h2>
+            <a href="https://www.youtube.com/watch?v=BxMmBvdYdXY" target="_blank" class="text-blue-500 underline">유튜브에서 보기</a>
+        </div>
+
+        <!-- 4. 드뷔시 '프렐류드' -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold">4. 드뷔시 <span class="font-bold">'프렐류드'</span></h2>
+            <a href="https://www.youtube.com/watch?v=5rkXYm-JEQQ" target="_blank" class="text-blue-500 underline">유튜브에서 보기</a>
+        </div>
+
+        <!-- 5. 드뷔시 '아라베스크 1번' -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold">5. 드뷔시 <span class="font-bold">'아라베스크 1번'</span></h2>
+            <a href="https://www.youtube.com/watch?v=jiKb-JzJFQM" target="_blank" class="text-blue-500 underline">유튜브에서 보기</a>
+        </div>
+
+        <!-- 6. 쇤베르크 '달에 홀린 피에로' -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold">6. 쇤베르크 <span class="font-bold">'달에 홀린 피에로'</span></h2>
+            <a href="https://www.youtube.com/watch?v=Y2-1H9yhU2A" target="_blank" class="text-blue-500 underline">유튜브에서 보기</a>
+        </div>
+
+        <!-- 7. 쇤베르크 '오케스트라를 위한 변주곡' -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold">7. 쇤베르크 <span class="font-bold">'오케스트라를 위한 변주곡'</span></h2>
+            <a href="https://www.youtube.com/watch?v=g7wefv98lvo" target="_blank" class="text-blue-500 underline">유튜브에서 보기</a>
+        </div>
+
+        <!-- 8. 쇤베르크 '정화된 밤' -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold">8. 쇤베르크 <span class="font-bold">'정화된 밤'</span></h2>
+            <a href="https://www.youtube.com/watch?v=SbqJIwGlJ_s" target="_blank" class="text-blue-500 underline">유튜브에서 보기</a>
+        </div>
+
+        <!-- 9. 존 케이지 '4분 33초' -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold">9. 존 케이지 <span class="font-bold">'4분 33초'</span></h2>
+            <a href="https://www.youtube.com/watch?v=JTEFKFiXSx4" target="_blank" class="text-blue-500 underline">유튜브에서 보기</a>
+        </div>
+
+        <!-- 10. 리게티 'Artikulation' -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold">10. 리게티 <span class="font-bold">'Artikulation'</span></h2>
+            <a href="https://www.youtube.com/watch?v=71hNl_skTZQ" target="_blank" class="text-blue-500 underline">유튜브에서 보기</a>
+        </div>
+
+        <!-- 랜덤 재생 버튼 -->
+        <div class="text-center mt-10">
+            <button onclick="playRandomVideo()" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none">
+                🎲 랜덤 재생
+            </button>
+        </div>
+    </div>
+</body>
+</html>
